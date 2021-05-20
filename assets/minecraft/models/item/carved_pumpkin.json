@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1001
+			},
+			"model": "item/pumpkin/scarecrow_idle"
+		},
+    {
+      "predicate": {
+        "custom_model_data": 1002
+      },
+      "model": "item/pumpkin/scarecrow_active"
+    }
+	]
+}

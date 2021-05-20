@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/jack_o_lantern",
+	"overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2001
+      },
+      "model": "item/headpiece/grass_crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2002
+      },
+      "model": "item/headpiece/horns"
+    }
+	]
+}

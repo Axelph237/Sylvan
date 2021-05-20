@@ -1,0 +1,2 @@
+clear @s minecraft:written_book{reward:"nk_book"} 1
+give @s knowledge_book{display:{Name:'{"text":"Enchanted Book","color":"yellow","bold":false,"italic":true}',Lore:['{"text":"Nature\'s Kiss","color":"gray","bold":false,"italic":false}','{"text":"Use secondary while in offhand and","color":"dark_purple","bold":false,"italic":true}','{"text":"weapon in mainhand to apply","color":"dark_purple","bold":false,"italic":true}']},Enchantments:[{}]} 1

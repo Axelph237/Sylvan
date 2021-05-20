@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_food",
+  "food_modifier": {
+    "operation": "multiply_total",
+    "value": -0.4
+  },
+  "saturation_modifier": {
+    "operation": "multiply_total",
+    "value": -0.4
+  },
+  "name": "§9§nHunger",
+  "description": "Your raw powers, stretched across nature require you to eat more food."
+}

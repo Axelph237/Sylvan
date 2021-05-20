@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:village",
+  "config": {
+    "start_pool": "sylvan:village/flower_forest/town_centers",
+    "size": 4
+  }
+}

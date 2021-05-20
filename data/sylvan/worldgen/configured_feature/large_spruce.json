@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "sylvan:large_spruce",
+      "config": {
+        "feature": {
+          "config": {
+            "heightmap": "OCEAN_FLOOR",
+            "minimum_size": {
+              "limit": 1,
+              "lower_size": 0,
+              "upper_size": 1,
+              "type": "minecraft:two_layers_feature_size"
+            },
+            "decorators": [
+              {
+                "type": "minecraft:leave_vine"
+              },
+              {
+                "type": "minecraft:trunk_vine"
+              }
+            ],
+            "trunk_provider": {
+              "state": {
+                "Name": "minecraft:spruce_log",
+                "Properties": {
+                  "axis": "y"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "leaves_provider": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 20,
+                  "data": {
+                    "Name": "minecraft:spruce_leaves",
+                    "Properties": {
+                      "distance": "1",
+                      "persistent": "true"
+                    }
+                  }
+                },
+                {
+                  "weight": 5,
+                  "data": {
+                    "Name": "minecraft:birch_leaves",
+                    "Properties": {
+                      "distance": "4",
+                      "persistent": "false"
+                    }
+                  }
+                }
+              ]
+            },
+            "foliage_placer": {
+              "radius": 3,
+              "offset": 2,
+              "height": 3,
+              "type": "minecraft:spruce_foliage_placer",
+              "trunk_height": 5
+            },
+            "trunk_placer": {
+              "base_height": 17,
+              "height_rand_a": 6,
+              "height_rand_b": 0,
+              "type": "minecraft:giant_trunk_placer"
+            }
+          },
+          "type": "minecraft:tree"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 6,
+        "extra_chance": 0.1,
+        "extra_count": 1
+      }
+    }
+  }
+}

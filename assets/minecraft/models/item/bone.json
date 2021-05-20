@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+      "layer0": "item/bone"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 10001
+			},
+			"model": "item/farmer/basic"
+		},
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "item/farmer/basic_tp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "item/farmer/sleep"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "item/farmer/basic_hold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "item/farmer/basic_goodbye"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20001
+      },
+      "model": "item/farmer/sylvan_icon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30001
+      },
+      "model": "item/farmer/riding/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30002
+      },
+      "model": "item/farmer/riding/leaping"
+    }
+	]
+}

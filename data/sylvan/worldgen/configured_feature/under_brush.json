@@ -1,0 +1,124 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "sylvan:under_brush",
+      "config": {
+        "feature": {
+          "config": {
+            "heightmap": "OCEAN_FLOOR",
+            "minimum_size": {
+              "limit": 1,
+              "lower_size": 0,
+              "upper_size": 1,
+              "type": "minecraft:two_layers_feature_size"
+            },
+            "decorators": [],
+            "trunk_provider": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:oak_log",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:dark_oak_log",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:birch_log",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  }
+                }
+              ]
+            },
+            "leaves_provider": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:oak_leaves",
+                    "Properties": {
+                      "distance": "1",
+                      "persistent": "false"
+                    }
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:dark_oak_leaves",
+                    "Properties": {
+                      "distance": "1",
+                      "persistent": "false"
+                    }
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:acacia_leaves",
+                    "Properties": {
+                      "distance": "1",
+                      "persistent": "false"
+                    }
+                  }
+                }
+              ]
+            },
+            "foliage_placer": {
+              "radius": 2,
+              "offset": 0,
+              "height": 3,
+              "type": "minecraft:bush_foliage_placer"
+            },
+            "trunk_placer": {
+              "base_height": 1,
+              "height_rand_a": 1,
+              "height_rand_b": 0,
+              "type": "minecraft:straight_trunk_placer"
+            }
+          },
+          "type": "minecraft:tree"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 3,
+        "extra_chance": 0.1,
+        "extra_count": 1
+      }
+    }
+  }
+}

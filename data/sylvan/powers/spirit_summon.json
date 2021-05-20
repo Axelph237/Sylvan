@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:add_xp",
+          "levels": -25
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scoreboard players reset @s pumpkin_search"
+        }
+      ]
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:scoreboard",
+      "objective": "pumpkin_search",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "name": "§2§nLeafy Friend",
+    "description": "Call forth a leafy friend to farm for you by placing a carved pumpkin on leaves at the cost of 25 xp levels."
+}

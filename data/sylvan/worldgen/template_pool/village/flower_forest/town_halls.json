@@ -1,0 +1,15 @@
+{
+  "name": "sylvan:village/flower_forest/town_halls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "sylvan:village/flower_forest/town_halls/flower_hall_large_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

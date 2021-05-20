@@ -1,0 +1,9 @@
+{
+  "values": [
+    "sylvan:tick/f_ticks_query",
+    "sylvan:tick/tick_gen",
+    "sylvan:tick/tick_dimtravel",
+    "sylvan:tick/tick_scarecrow",
+    "sylvan:tick/tick_farmer"
+  ]
+}

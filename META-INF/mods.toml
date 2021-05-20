@@ -1,0 +1,13 @@
+
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "GPLv3"
+
+[[mods]]
+modId = "sylvano"
+version = "0.1.0"
+displayName = "A Sylvan Origin"
+authors = "CandyCaneCazoo"
+description = '''
+
+'''

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "sylvan:flower_patch",
+      "config": {
+        "feature": {
+          "config": {
+            "whitelist": [
+              {
+                "Properties": {
+                  "snowy": "false"
+                },
+                "Name": "minecraft:grass_block"
+              }
+            ],
+            "blacklist": [],
+            "tries": 64,
+            "state_provider": {
+              "type": "minecraft:forest_flower_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 32
+      }
+    }
+  }
+}

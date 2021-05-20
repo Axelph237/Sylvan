@@ -1,0 +1,15 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "execute as @e[distance=..10,limit=3,sort=random,tag=!sylvan] if predicate sylvan:using_ranged at @s run function sylvan:misc/summon_snakes"
+      }
+    ]
+  },
+  "interval": 100,
+  "name": "§e§nNature's Guardian",
+  "description": "You have a strong distaste for hunters. Your hate manifests itself in the form of snakes that periodically attack nearby hunters."
+}

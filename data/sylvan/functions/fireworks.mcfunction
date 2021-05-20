@@ -1,0 +1,6 @@
+summon firework_rocket ~ ~ ~ {Life:0,LifeTime:11,Motion:[-0.1,1.0,-0.1],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;16726271],FadeColors:[I;1896703]}]}}}}
+summon firework_rocket ~ ~ ~ {Life:0,LifeTime:9,Motion:[0.1,1.0,-0.1],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;16726271],FadeColors:[I;1896703]}]}}}}
+summon firework_rocket ~ ~ ~ {Life:0,LifeTime:12,Motion:[-0.1,1.0,0.1],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;16726271],FadeColors:[I;1896703]}]}}}}
+summon firework_rocket ~ ~ ~ {Life:0,LifeTime:13,Motion:[0.1,1.0,0.1],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;16726271],FadeColors:[I;1896703]}]}}}}
+summon firework_rocket ~ ~ ~ {Life:0,LifeTime:20,Motion:[0.0,1.0,0.0],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;1048511],FadeColors:[I;547583]},{Type:2,Colors:[I;2224383],FadeColors:[I;16481791]}]}}}}
+tellraw @a[distance=..30] [{"text":"<Everyone> ","color":"white"},{"text":"Congrats to a new baby bird!","color":"light_purple"}]

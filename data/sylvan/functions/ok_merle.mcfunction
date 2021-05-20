@@ -1,0 +1,3 @@
+tag @s add traded
+give @s paper{display:{Name:'[{"text":"Rose of","color":"white","bold":true,"italic":false},{"text":"... ","color":"white","bold":false,"italic":false},{"text":"wait","color":"white","bold":false,"italic":true},{"text":"...","color":"white","bold":false,"italic":false}]',Lore:['{"text":"Merle, how did you even get this?...","color":"light_purple","bold":false,"italic":true}']},CustomModelData:10001} 1
+tellraw @s [{"text":"<Mayor> ","color":"white","bold":false,"italic":false},{"text":"For you Merle! A gift to such a kind person as yourself.","color":"white","bold":false,"italic":false}]

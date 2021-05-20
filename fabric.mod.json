@@ -1,0 +1,1 @@
+{"schemaVersion": 1, "authors": ["CandyCaneCazoo"], "environment": "*", "depends": {"fabric-api-base": "*"}, "name": "A Sylvan Origin", "id": "sylvano", "version": "0.1.0", "description": "", "license": "GPLv3"}

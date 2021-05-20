@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#sylvan:double_crops",
+    "#sylvan:single_crops",
+    "minecraft:wheat",
+    "minecraft:carrots",
+    "minecraft:potatoes"
+  ]
+}

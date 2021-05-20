@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "weight": 8,
+          "name": "sylvan:spirit_flowers",
+          "expand": false
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"It\\'s Okay for Things to Pass\",\"bold\":false,\"italic\":true}',Lore:['{\"text\":\"Even Though it Hurts\",\"bold\":false,\"italic\":true}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "quality": 0,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{reward:nk_book,display:{Name:'{\"text\":\"Goodbye and Farewell\",\"color\":\"aqua\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"An Memoir to Lifelong Journeys\",\"color\":\"dark_purple\",\"italic\":true}']},CustomModelData:10001,title:\"\",author:\"\",generation:0,pages:['{\"text\":\"My life was not long, it came and it went. I\\'m am unsure how or why but I thank you for your kindness to me. Despite the fact that I lived what many considered a sad life, I am more than pleased to be going away. I won\\'t be dying, my dying is not the end. I am moving away, where to I do not\"}','[{\"text\":\"know. What I do know is that I will be of more use than I was in the past, to you or to anyone. But I thank you for your time, I thank you for your love, and I thank you for what you gave to me.\"},{\"text\":\" -Someone you love, and who loves you too\",\"bold\":true,\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Send a Goobye?\",\"color\":\"gray\",\"italic\":true}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger rewards\"}}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

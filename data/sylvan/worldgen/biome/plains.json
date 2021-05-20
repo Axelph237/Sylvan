@@ -1,0 +1,163 @@
+{
+  "scale": 0.15,
+  "effects": {
+    "sky_color": 11459311,
+    "fog_color": 12774911,
+    "water_color": 1746144,
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:music.credits",
+    "mood_sound": {
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave"
+    }
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:sea_pickle",
+      "minecraft:warm_ocean_vegetation",
+      "minecraft:seagrass_warm"
+    ],
+    [
+      "minecraft:lake_water"
+    ],
+    [],
+    [],
+    [],
+    [
+      "sylvan:flower_patch"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_lapis",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "sylvan:bolder",
+      "minecraft:flower_plain",
+      "minecraft:flower_plain_decorated",
+      "minecraft:forest_flower_vegetation",
+      "minecraft:forest_flower_vegetation_common"
+    ],
+    [
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_sugar_cane",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:plain_vegetation"
+    ],
+    []
+  ],
+  "starts": [
+    "sylvan:village_flower_forest_large"
+  ],
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:horse",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:llama",
+        "minCount": 1,
+        "maxCount": 1,
+        "weight": 1
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "minCount": 3,
+        "maxCount": 6,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:squid",
+        "minCount": 1,
+        "maxCount": 2,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:pufferfish",
+        "minCount": 1,
+        "maxCount": 3,
+        "weight": 15
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "minCount": 2,
+        "maxCount": 3,
+        "weight": 25
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "precipitation": "rain",
+  "temperature": 0.8,
+  "downfall": 0.7,
+  "category": "plains",
+  "depth": 0.145,
+  "creature_spawn_probability": 0.2
+}

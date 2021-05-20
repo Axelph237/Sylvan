@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "item": "minecraft:saddle",
+            "nbt": "{display:{Name:'{\"text\":\"Blooming Rose of Life\",\"color\":\"white\",\"bold\":true,\"italic\":false}'},CustomModelData:10001}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "item": "minecraft:saddle",
+            "nbt": "{display:{Name:'{\"text\":\"Blooming Rose of Life\",\"color\":\"white\",\"bold\":true,\"italic\":false}'},CustomModelData:10001}"
+          }
+        }
+      }
+    }
+  ]
+}

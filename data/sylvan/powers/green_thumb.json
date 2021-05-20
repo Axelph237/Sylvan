@@ -1,0 +1,29 @@
+{
+  "type": "origins:action_on_block_break",
+  "block_action": {
+    "type": "origins:chance",
+    "chance": 0.7,
+    "action": {
+      "type": "origins:execute_command",
+      "command": "summon experience_orb ~ ~ ~ {Value:2}",
+      "permission_level": 4
+    }
+  },
+  "block_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:crops"
+      },
+      {
+        "type": "origins:block_state",
+        "property": "age",
+        "comparison": ">=",
+        "compare_to": 7
+      }
+    ]
+  },
+  "name": "§a§nGreen Thumb",
+  "description": "Your farming adeptness allows you to gain experience from harvesting crops."
+}

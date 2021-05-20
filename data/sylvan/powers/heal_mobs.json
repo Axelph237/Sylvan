@@ -1,0 +1,16 @@
+{
+  "type": "origins:action_on_item_use",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "execute as @e[type=#sylvan:peaceful,type=!wolf,limit=3,sort=nearest,distance=..15] at @s run function sylvan:misc/pollinate",
+    "permission_level": 4
+  },
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "sylvan:heals_mobs"
+    }
+  },
+  "name": "§d§nSoothing Pollen",
+  "description": "By eating certain foods like honey bottles and pumpkin pies, you can heal nearby passive mobs."
+}

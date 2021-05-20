@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"sylvan:spirit_summon",
+		"sylvan:green_thumb",
+		"sylvan:callbacks",
+		"sylvan:natures_guardian",
+		"sylvan:peaceful_multiple",
+		"sylvan:heal_mobs",
+		"sylvan:antlers",
+		"sylvan:hunger"
+	],
+	"icon": {
+		"item": "minecraft:bone",
+		"tag": "{CustomModelData:20001}"
+	},
+	"order": 5,
+	"impact": 3,
+	"name": "§a§lSylvan",
+	"description": "Born to nature, you love all things living and want to keep them that way."
+}
